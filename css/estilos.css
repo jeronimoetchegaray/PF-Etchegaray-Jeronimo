@@ -151,3 +151,9 @@ body {
 h2 {
     color: black;
 }
+.footer {
+    background-color: black;
+}
+.navbar-brand {
+    color: red;
+}

@@ -1,10 +1,10 @@
 * {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 
 article,
@@ -18,204 +18,194 @@ hgroup,
 menu,
 nav,
 section {
-    display: block;
+  display: block;
 }
 
 body {
-    line-height: 1;
+  line-height: 1;
 }
 
 ol,
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 blockquote,
 q {
-    quotes: none;
+  quotes: none;
 }
 
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-    content: "";
-    content: none;
+  content: "";
+  content: none;
 }
 
 table {
-    border-collapse: collapse;
-    border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 .imgcarousel {
-    height: 400px;
+  height: 400px;
 }
 
 footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
 }
 
 body {
-    background-color: gray;
+  background-color: gray;
 }
 
 h2 {
-    color: black;
+  color: black;
 }
 
 .footer {
-    background-color: black;
+  background-color: black;
 }
 
 .navbar-brand {
-    color: red;
+  color: red;
 }
 
 /* SOBRE MI  */
 .titulo2 {
-    text-align: center;
-    font-size: 40px;
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    font-style: oblique;
-    color: red;
-    margin-top: 30px;
+  text-align: center;
+  font-size: 40px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: oblique;
+  color: red;
+  margin-top: 30px;
 }
 
 .textosobremi {
-    margin-top: 50px;
-    font-size: 20px;
-    font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS", sans-serif;
-    color: black;
+  margin-top: 50px;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS", sans-serif;
+  color: black;
 }
 
 .containerdos {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .tituloimagen {
-    font-size: 25px;
-    color: pink;
-    margin-bottom: 15px;
+  font-size: 25px;
+  color: pink;
+  margin-bottom: 15px;
 }
 
 .texto2 {
-    margin-bottom: 10px;
-    color: black;
+  margin-bottom: 10px;
+  color: black;
 }
 
 .texto3 {
-    margin-bottom: 10px;
-    color: black;
+  margin-bottom: 10px;
+  color: black;
 }
 
 /* CSS resenas */
 .resenas2 {
-    max-width: 1200px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    border: 1px solid #ccc;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border: 1px solid #ccc;
 }
 
 article {
-    flex-basis: calc(33.33% - 20px);
-    margin-bottom: 20px;
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
 }
 
 h2 {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 /* Estilos responsivos */
 @media screen and (max-width: 600px) {
-    nav li {
-        display: block;
-        margin-bottom: 10px;
-    }
+  nav li {
+    display: block;
+    margin-bottom: 10px;
+  }
 }
-
 /* CSS de productos */
 .imagen {
-    position: relative;
-    overflow: hidden;
-    height: 140px;
+  position: relative;
+  overflow: hidden;
+  height: 140px;
 }
 
 .imagen img {
-    width: 100%;
-    height: auto;
-    transition: transform 0.5s;
+  width: 100%;
+  height: auto;
+  transition: transform 0.5s;
 }
 
 .imagen:hover img {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .col-lg-4 {
-    text-align: center;
+  text-align: center;
 }
 
 h2 {
-    margin-top: 1rem;
-    font-size: 1.5rem;
-    font-weight: 500;
-    color: #333;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #333;
 }
 
 p {
-    margin-top: 0.5rem;
-    font-size: 1rem;
-    font-weight: 400;
-    color: #666;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #666;
 }
 
 /* Estilos generales */
 .mainproducto {
-    max-width: 1200px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    border: 1px solid #ccc;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border: 1px solid #ccc;
 }
 
 .producto {
-    flex-basis: calc(33.33% - 20px);
-    margin-bottom: 20px;
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 20px;
-    position: relative;
-    overflow: hidden;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+  overflow: hidden;
 }
 
 .producto:hover .imagen {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .producto:hover .overlay {
-    opacity: 1;
+  opacity: 1;
 }
 
 .imagen {
-    position: relative;
-    overflow: hidden;
-    height: auto;
+  position: relative;
+  overflow: hidden;
+  height: auto;
 }
 
 /*# sourceMappingURL=style.css.map */

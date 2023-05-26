@@ -7,19 +7,7 @@
     vertical-align: baseline;
 }
 
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-    display: block;
-}
+
 
 body {
     line-height: 1;
@@ -54,24 +42,25 @@ table {
 .imgcarousel {
     height: 400px;
 }
-
+.container-index {
+    background-color:gray;
+    opacity: 0.6;
+    border-radius: 3%;
+    color: black;
+}
+.container-index p { color: black;
+}
 footer {
-    position: fixed;
-
     left: 0;
-
     bottom: 0;
-
     width: 100%;
-
     background-color: #333;
-
     color: #fff;
-
     padding: 10px;
+}
+.footerresena { position: fixed;
 
 }
-
 body {
     background-color: gray;
 }
@@ -93,12 +82,31 @@ h2 {
 .titulo2 {
     text-align: center;
     font-size: 40px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: oblique;
-    color: red;
+    color: black;
     margin-top: 30px;
 
 }
+
+.mapa {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+
+}
+
+.mapa iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+
+}
+
+
+
 
 .textosobremi {
     margin-top: 50px;
@@ -168,8 +176,10 @@ h2 {
 
 .imagen img {
     width: 100%;
-    height: auto;
+    height: 200px; /* Establece la altura deseada para las imágenes */
+    object-fit: cover;
     transition: transform 0.5s;
+    
 }
 
 .imagen:hover img {
